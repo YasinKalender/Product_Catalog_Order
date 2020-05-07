@@ -1,0 +1,18 @@
+.jumbotron {
+    background-image: url("../İmg/ranger-4df6c1b6.png");
+    background-size: cover;
+    height: 100%;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+#review {
+    margin-left: -30px;
+}
+
+#product-prices {
+    font-size: 28px;
+    color: red;
+}

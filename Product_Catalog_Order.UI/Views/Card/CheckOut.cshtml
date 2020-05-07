@@ -1,0 +1,82 @@
+﻿@model Product_Catalog_Order.UI.Models.CardModel.ShippingDetails
+@{
+    ViewBag.Title = "CheckOut";
+}
+
+<div class="container mt-5">
+
+    <h2>Shopping İnfortmation</h2>
+    <hr />
+
+
+    @using (Html.BeginForm())
+    {
+
+        @Html.ValidationSummary()
+
+        <div class="form-group">
+
+            <label for="FullName">FullName</label>
+            <span class="badge badge-danger">@User.Identity.Name</span>
+
+
+        </div>
+
+
+
+        <div class="form-group">
+
+            <label for="Adress">Adress</label>
+            @Html.TextAreaFor(i => i.Adress, new { @class = "form-control" })
+
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="City">City</label>
+            @Html.TextBoxFor(i => i.City, null, new { @class = "form-control" })
+
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="Region">Region</label>
+            @Html.TextBoxFor(i => i.Region, null, new { @class = "form-control" })
+
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="PostaCode">PostaCode</label>
+            @Html.TextBoxFor(i => i.PostaCode, null, new { @class = "form-control" })
+
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Shopping Complete</button>
+
+
+
+
+    }
+
+
+
+
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+
+
+</div>
+
+
+
+

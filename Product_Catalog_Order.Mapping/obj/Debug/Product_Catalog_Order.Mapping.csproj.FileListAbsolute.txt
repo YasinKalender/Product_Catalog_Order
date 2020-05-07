@@ -1,0 +1,13 @@
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\bin\Debug\Product_Catalog_Order.Mapping.dll.config
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\bin\Debug\Product_Catalog_Order.Mapping.dll
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\bin\Debug\Product_Catalog_Order.Mapping.pdb
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\bin\Debug\Product_Catalog_Order.DAL.Entities.dll
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\bin\Debug\Product_Catalog_Order.DAL.Entities.pdb
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\obj\Debug\Product_Catalog_Order.Mapping.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\obj\Debug\Product_Catalog_Order.Mapping.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\obj\Debug\Product_Catalog_Order.Mapping.dll
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.Mapping\obj\Debug\Product_Catalog_Order.Mapping.pdb

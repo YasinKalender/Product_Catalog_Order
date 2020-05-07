@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Product_Catalog_Order.DAL.Entities.ORM.Entity.Concrete.Category>
+
+@{
+    ViewBag.Title = "CategoryList";
+}
+
+<div class="container mt-5">
+
+    <h2>Category List</h2>
+
+    <p>
+        @Html.ActionLink("Caategory Add", "CategoryAdd","Admin")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AddDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeleteDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UpdateDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeleteDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                   @Html.ActionLink("Category Edit","CategoryEdit", "Admin", new { id=@item.ID},new { @class="btn btn-primary btn-sm"})
+                    @Html.ActionLink("Category Delete","CategoryDelete", "Admin", new { id = item.ID },new { @class="btn btn-danger btn-sm"})
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

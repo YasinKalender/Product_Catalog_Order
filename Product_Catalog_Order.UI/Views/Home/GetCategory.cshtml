@@ -1,0 +1,12 @@
+﻿@model List<Product_Catalog_Order.DAL.Entities.ORM.Entity.Concrete.Category>
+
+@foreach (var item in Model)
+{
+    <div class="list-group">
+        <a href="/Home/List/@item.ID" class="list-group-item list-group-item-action">
+           @item.CategoryName
+        </a>
+    </div>
+}
+
+

@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="container">
+        <h2>Login</h2>
+
+
+        <input type="hidden" name="ReturnUrl" />
+
+        <div class="form-group">
+
+            <label for="Username">Username</label>
+            <input type="text" name="Username" class="form-control" />
+
+
+        </div>
+
+
+
+        <div class="form-group">
+
+            <label for="Password">Password</label>
+            <input type="password" name="Password" class="form-control" />
+
+
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Register</button>
+
+        <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    </div>
+
+}
+

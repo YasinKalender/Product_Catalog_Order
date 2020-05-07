@@ -1,0 +1,5 @@
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.DAL.Entities\bin\Debug\Product_Catalog_Order.DAL.Entities.dll
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.DAL.Entities\bin\Debug\Product_Catalog_Order.DAL.Entities.pdb
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.DAL.Entities\obj\Debug\Product_Catalog_Order.DAL.Entities.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.DAL.Entities\obj\Debug\Product_Catalog_Order.DAL.Entities.dll
+C:\Users\LENOVO\source\repos\Product_Catalog_Order\Product_Catalog_Order.DAL.Entities\obj\Debug\Product_Catalog_Order.DAL.Entities.pdb

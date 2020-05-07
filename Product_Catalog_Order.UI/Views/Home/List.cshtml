@@ -1,0 +1,20 @@
+﻿@model List<Product_Catalog_Order.DAL.Entities.ORM.Entity.Concrete.Product>
+@{
+    ViewBag.Title = "List";
+}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+
+            @Html.Action("GetCategory", "Home")
+        </div>
+
+        <div class="col-md-9">
+
+            @Html.Partial("_ProductList", Model)
+
+
+        </div>
+    </div>
+
+</div>
